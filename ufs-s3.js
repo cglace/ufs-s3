@@ -1,5 +1,6 @@
+export let AWS;
 if (Meteor.isServer) {
-    const AWS = Npm.require('aws-sdk');
+    AWS = Npm.require('aws-sdk');
 }
 
 const validS3ServiceParamKeys = [
