@@ -1,3 +1,4 @@
+import {AWS} from './ufs-s3';
 var Writable = Npm.require('stream').Writable;
 
 // This is based on the code from
